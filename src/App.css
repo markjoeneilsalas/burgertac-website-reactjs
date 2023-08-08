@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fontmain;
+  color: white; 
+}
+
+@font-face {
+  font-family: fontmain;
+  src: url(./assets/AlfaSlabOne-Regular.ttf);
+}
+
+.logo-name {
+  font-size: 20px;
+}
+
+.background-image1 {
+  background-image: url('./assets/navhero.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 80vh;
+}
+
+.slogan-text {
+  padding-top: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.hero-icons {
+  padding-top: 3rem;
+}
+
+.card {
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+.btn-start {
+  width: 210px;
+  height: 47px;
+  left: 104px;
+  top: 513px;
+  border-radius: 50px;
+  background-color: black;
+  border: 2px solid #FFFFFF;
+}
+
+.btn-start:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.background-image2 {
+  background-image: url('./assets/content2-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 50vh;
+}
+
+.product1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 250px;
+}
